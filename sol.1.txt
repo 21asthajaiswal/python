@@ -1,0 +1,7 @@
+ls = eval(input("enter list"))
+a = eval(input("enter the queey string"))
+b = []
+for i in ls:
+	if i.startswith(a)==true:
+		b.append(i)
+print(b)
